@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tela de jogo</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <h4 id="player1_name"></h4> <span id="player1_score"></span>
+    <br>
+    <h4 id="player2_name"></h4> <span id="player2_score"></span>
+    <div class="container">
+        <center>
+            <h2 style="color: cornsilk;">adivinhe a Palavra</h2>
+            <h3 id="player_question"></h3>
+            <h3 id="player_answer"></h3>
+            <div id="output" class="col-lg-6"></div>
+            <br>
+            <br>
+            <label>digite sua Palavra: <b style="color: crimson;"> escolha uma palavra com 5 ou mais letras</b></label>
+            <input type="text" id="word" class="form-control" placeholder="palavra">
+            <br>
+            <button onclick="send()" class="btn btn-success" style="width: 30%;">enviar</button>
+        </center>
+    </div>
+    <script src="game_login.js"></script>
+</body>
+</html>
